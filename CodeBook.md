@@ -80,8 +80,7 @@ This is a code book for project 1 of Getting And Cleaning Data course.
             fBodyBodyGyroMag-std()	,
             fBodyBodyGyroJerkMag-mean(),	
             fBodyBodyGyroJerkMag-std().
-            
-End.
+          
 
             
 
