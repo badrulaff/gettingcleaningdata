@@ -61,14 +61,12 @@ run_analysis <- function(){
 	
 	#build a single data set
 	combined_data <- cbind(y_data , subject_data, x_data)
-<<<<<<< HEAD
+
 	#sort by activity and subject
 	attach(combined_data)
 	combined_data_sorted <- combined_data[order(activity,subject),]
 	detach(combined_data)
-=======
->>>>>>> origin/master
-	
+
 	#-- Step 5:Create a second, independent tidy data set with the average of each variable for each activity and each subject
 	
 	dataTable <- data.table(combined_data_sorted)
