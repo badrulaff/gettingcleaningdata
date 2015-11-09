@@ -70,7 +70,19 @@ features: List of all features in mean and std.
             fBodyGyro-mean()-Y	
             fBodyGyro-mean()-Z	
             fBodyGyro-std()-X	
-            fBodyGyro-std()-Y	fBodyGyro-std()-Z	fBodyAccMag-mean()	fBodyAccMag-std()	fBodyBodyAccJerkMag-mean()	fBodyBodyAccJerkMag-std()	fBodyBodyGyroMag-mean()	fBodyBodyGyroMag-std()	fBodyBodyGyroJerkMag-mean()	fBodyBodyGyroJerkMag-std()
+            fBodyGyro-std()-Y	
+            fBodyGyro-std()-Z	
+            fBodyAccMag-mean()	
+            fBodyAccMag-std()	
+            fBodyBodyAccJerkMag-mean()	
+            fBodyBodyAccJerkMag-std()	
+            fBodyBodyGyroMag-mean()	
+            fBodyBodyGyroMag-std()	
+            fBodyBodyGyroJerkMag-mean()	
+            fBodyBodyGyroJerkMag-std()
+            
+            
+End.
 
             
 
