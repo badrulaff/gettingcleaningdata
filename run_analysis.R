@@ -69,6 +69,6 @@ run_analysis <- function(){
 	
 	dataTable <- data.table(combined_data)
 	tidy_data <-dataTable[,lapply(.SD,mean),by="activity,subject"]
-	write.table(combined_data, "tidy_data.txt", sep=";", row.names = FALSE)
+	write.table(tidy_data, "tidy_data.txt", sep=";", row.names = FALSE)
 	
 }
