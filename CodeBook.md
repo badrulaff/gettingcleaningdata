@@ -1,22 +1,78 @@
-### Code Book for run_analysis
+### Code Book for run_analysis.R
 
 This is a code book for project 1 of Getting And Cleaning Data course. 
-The purpose of this project is described as follows:-
-    1. Merges the training and the test sets to create one data set.
-    2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-    3. Uses descriptive activity names to name the activities in the data set
-    4. Appropriately labels the data set with descriptive variable names. 
-    5. From the data set in step 4, creates a second, independent tidy data set with the average of each 
-    variable for each  activity and each subject.
-The relevant script is "run_analysis.R". The combined data set is also saved as "combined_data.csv" file.
-The produced tidy data is in "tidy_data.csv" file.
 
-### Data Definition
+### Variables
 
-The functions 'getTestFile' and 'getTrainFile' reads data from folder test and train respectively.
-The assumption is that data files inside 'UCI HAR Dataset' folder. 
+activity: The activities are :-
+            WALKING
+            WALKING_UPSTAIRS
+            WALKING_DOWNSTAIRS
+            SITTING
+            STANDING
+            LAYING
+subject:  The subject is who performed the activity for each window sample. 
+            Its range is from 1 to 30. 
+features: List of all features in mean and std.
+            tBodyAcc-mean()-X	
+            tBodyAcc-mean()-Y	
+            tBodyAcc-mean()-Z	
+            tBodyAcc-std()-X	
+            tBodyAcc-std()-Y	
+            tBodyAcc-std()-Z	
+            tGravityAcc-mean()-X	
+            tGravityAcc-mean()-Y	
+            tGravityAcc-mean()-Z	
+            tGravityAcc-std()-X	
+            tGravityAcc-std()-Y	
+            tGravityAcc-std()-Z	
+            tBodyAccJerk-mean()-X	                 
+            tBodyAccJerk-mean()-Y	
+            tBodyAccJerk-mean()-Z	
+            tBodyAccJerk-std()-X	
+            tBodyAccJerk-std()-Y	
+            tBodyAccJerk-std()-Z	
+            tBodyGyro-mean()-X	
+            tBodyGyro-mean()-Y	
+            tBodyGyro-mean()-Z	
+            tBodyGyro-std()-X	
+            tBodyGyro-std()-Y	
+            tBodyGyro-std()-Z	
+            tBodyGyroJerk-mean()-X	
+            tBodyGyroJerk-mean()-Y	
+            tBodyGyroJerk-mean()-Z	
+            tBodyGyroJerk-std()-X	
+            tBodyGyroJerk-std()-Y	
+            tBodyGyroJerk-std()-Z	
+            tBodyAccMag-mean()	
+            tBodyAccMag-std()	
+            tGravityAccMag-mean()	
+            tGravityAccMag-std()	
+            tBodyAccJerkMag-mean()	
+            tBodyAccJerkMag-std()	
+            tBodyGyroMag-mean()	
+            tBodyGyroMag-std()	
+            tBodyGyroJerkMag-mean()	
+            tBodyGyroJerkMag-std()	
+            fBodyAcc-mean()-X	
+            fBodyAcc-mean()-Y	
+            fBodyAcc-mean()-Z	
+            fBodyAcc-std()-X	
+            fBodyAcc-std()-Y	
+            fBodyAcc-std()-Z	
+            fBodyAccJerk-mean()-X	
+            fBodyAccJerk-mean()-Y	
+            fBodyAccJerk-mean()-Z	
+            fBodyAccJerk-std()-X	
+            fBodyAccJerk-std()-Y	
+            fBodyAccJerk-std()-Z	
+            fBodyGyro-mean()-X	
+            fBodyGyro-mean()-Y	
+            fBodyGyro-mean()-Z	
+            fBodyGyro-std()-X	
+            fBodyGyro-std()-Y	fBodyGyro-std()-Z	fBodyAccMag-mean()	fBodyAccMag-std()	fBodyBodyAccJerkMag-mean()	fBodyBodyAccJerkMag-std()	fBodyBodyGyroMag-mean()	fBodyBodyGyroMag-std()	fBodyBodyGyroJerkMag-mean()	fBodyBodyGyroJerkMag-std()
 
-xxxxxxxxxxxxxxx:
+            
 
-1. xxxxxx: This function ccccccccc.
-2.  xxxxxx: This function cccccccccccccc.
+
+
