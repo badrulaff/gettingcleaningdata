@@ -8,16 +8,18 @@
 library(plyr)
 library(data.table)
 
+#function: getTestFile gets test file
 getTestFile<- function(filename, header=FALSE){
 	url<-paste("./UCI HAR Dataset/test/", filename ,sep="/")
 	data<- read.table(url,header)
 }
+#function: getTrainFile gets train file
 getTrainFile<- function(filename, header=FALSE){
   url<-paste("./UCI HAR Dataset/train/", filename ,sep="/")
 	data<- read.table(url,header)
 }
 
-
+#function: run_analysis is the main function
 run_analysis <- function(){
   #--Step1: Merges the training and the test sets to create one data set.
   # test data
