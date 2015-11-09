@@ -64,12 +64,11 @@ run_analysis <- function(){
 	
 	#build a single data set
 	combined_data <- cbind(y_data , subject_data, x_data)
-	#write.table(combined_data,file="combined_data.csv",sep=",",row.names = FALSE)
 	
 	#-- Step 5:Create a second, independent tidy data set with the average of each variable for each activity and each subject
 	
 	dataTable <- data.table(combined_data)
 	tidy_data <-dataTable[,lapply(.SD,mean),by="activity,subject"]
-	write.table(tidy_data,file="tidy_data.csv",sep=",",row.names = FALSE)
+	write.table(combined_data, "tidy_data.txt", sep=";", row.names = FALSE)
 	
 }
