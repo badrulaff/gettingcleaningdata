@@ -4,16 +4,16 @@ This is a code book for project 1 of Getting And Cleaning Data course.
 
 ### Variables
 
-activity: The activities are :-
-            WALKING
-            WALKING_UPSTAIRS
-            WALKING_DOWNSTAIRS
-            SITTING
-            STANDING
-            LAYING
-subject:  The subject is who performed the activity for each window sample. 
+1. activity: The activities are :-
+            WALKING,
+            WALKING_UPSTAIRS,
+            WALKING_DOWNSTAIRS,
+            SITTING,
+            STANDING,
+            LAYING.
+2. subject:  The subject is who performed the activity for each window sample. 
             Its range is from 1 to 30. 
-features: List of all features in mean and std.
+3. features: List of all features in mean and std forms.
             tBodyAcc-mean()-X	
             tBodyAcc-mean()-Y	
             tBodyAcc-mean()-Z	
